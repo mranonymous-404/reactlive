@@ -158,6 +158,8 @@ footer p {
     text-align: center;
   }
 
+
+
   #header .header-img {
     text-align: center;
   }
@@ -184,5 +186,19 @@ footer p {
 
   #header .header-img img {
     width: 70%;
+  }
+}
+
+@media (max-width: 610px) {
+  .card img {
+    height: 200px !important;
+    width: 250px !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .card img {
+    height: 200px !important;
+    width: 235px !important;
   }
 }
