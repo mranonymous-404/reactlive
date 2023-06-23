@@ -3,29 +3,29 @@ import { useState } from "react";
 
 const Contact = () => {
     const [data, setdata] = useState({
-        fullname : '',
-        mobile : '',
-        email : '',
-        contextmsg : ''
+        fullname: '',
+        mobile: '',
+        email: '',
+        contextmsg: ''
     });
 
-    const inputEvent = (event) =>{
-        const {name, value} = event.target;
-        setdata((preValue)=>{
-            return{
+    const inputEvent = (event) => {
+        const { name, value } = event.target;
+        setdata((preValue) => {
+            return {
                 ...preValue,
-                [name] : value,
+                [name]: value,
             }
         })
     }
-    const formsubmit = (e) =>{
+    const formsubmit = (e) => {
         e.preventDefault();
         alert(`${data.fullname}`)
     }
     return (
         <>
             <div className="my-5">
-                <h1>Contact Us</h1>
+                <h1 className="text-center mb-3">Contact Us</h1>
             </div>
             <div className="container contact_div">
                 <div className="row">

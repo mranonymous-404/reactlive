@@ -1,5 +1,5 @@
 import React from "react";
-import web from "../src/images/img1.jpg";
+// import web from "../src/images/img1.jpg";
 import { NavLink } from "react-router-dom";
 const Card = (props) => {
     return (
