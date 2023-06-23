@@ -4,9 +4,11 @@ import web from "../src/images/5443169.jpg";
 import Common from "./Common";
 
 const Home = () => {
+    const myname = "Pankaj saini";
+    const messages = "Stay silent, Do your Work, Develop";
     return (
         <>
-            <Common name="Grow Your Knowledge " imgsrc={web} visit="/service" btname="Get Started" />
+            <Common name="Grow Your Knowledge " headingmsg={messages} ownername={myname} imgsrc={web} visit="/service" btname="Get Started" />
         </>
     )
 }

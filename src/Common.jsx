@@ -11,8 +11,8 @@ const Common = (props) => {
                             <div className="row" style={{ width: '100%' }}>
 
                                 <div className="col-md-6 py-5 order-2 order-lg-1">
-                                    <h1> {props.name} <strong className="brand-name">Pankaj saini </strong> </h1>
-                                    <h2> Stay silent, Do your Work, Develop</h2>
+                                    <h1> {props.name} <strong className="brand-name">{props.ownername}</strong> </h1>
+                                    <h2>{props.headingmsg}</h2>
                                     <div className="mt-3">
                                         <NavLink to={props.visit} className="btn-get-started">{props.btname}</NavLink>
 
